@@ -7,9 +7,9 @@ Installed-Size: 36
 Depends: python3:any
 Filename: pool/main/python3-nasatools/python3-nasatools_1.0.4-1_all.deb
 Size: 8774
-MD5sum: 94391d8417c4f6e3bd29630b666be99a
-SHA1: 962b105e60da35e658a394659af1842fb985fb43
-SHA256: 4d3986528c113f206c2a273e0d410cde4a9973490a708265fa9c8d21ad4eb3e9
+MD5sum: d68b58b731ac5e73ec7c0b0a03035306
+SHA1: fa0dd05c52ba7a4061372064b1576a8bde90750f
+SHA256: cac56f0ffbb9fc24785553e3b79c5a77428b0f51d77ff985a3053360e851f0cb
 Section: python
 Priority: optional
 Homepage: https://nasajon.com.br
