@@ -1,0 +1,37 @@
+Package: python3-nasatools
+Source: nasatools
+Version: 1.0.4-1
+Architecture: all
+Maintainer: Daniel Checchia <danielchecchia@nasajon.com.br>
+Installed-Size: 36
+Depends: python3:any
+Filename: pool/main/python3-nasatools/python3-nasatools_1.0.4-1_all.deb
+Size: 8774
+MD5sum: 94391d8417c4f6e3bd29630b666be99a
+SHA1: 962b105e60da35e658a394659af1842fb985fb43
+SHA256: 4d3986528c113f206c2a273e0d410cde4a9973490a708265fa9c8d21ad4eb3e9
+Section: python
+Priority: optional
+Homepage: https://nasajon.com.br
+Description: Configuração inicial de Servidores da Nasajon
+ # NasaTools
+ .
+ ![alt text](image-1.png)
+ .
+ No dia a dia da área de infra/SRE, temos vários pequenos scripts criados para auxiliar nas atividades, rodando diretamente na instância ou no container. Há também uma série de pacotes que não são instalados por padrão, como ifconfig, traceroute, whois - ou outros. Com estes pontos em mente, alguns scripts foram criados e incluídos neste pacote:
+ .
+ ## Instalação do pacote
+ .
+ - Instalação da chave do repo **(em desenvolvimento)**
+ - configuração do repo **(em desenvolvimento)**
+ - apt update
+ - apt install nasatools
+ .
+ ## Utilitários no pacote
+ ### nsjEnv
+ Faz o setup inicial dos servidores. Algumas atividades realizadas:
+ - Valida versão do Python (>= 3.10)
+ - Seta a timezone para America/Sao_Paulo
+ - Desabilita o IPv6
+ - Instala os pacotes padronizados usados pelo SRE
+
