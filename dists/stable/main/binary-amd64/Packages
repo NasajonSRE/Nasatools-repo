@@ -6,10 +6,10 @@ Maintainer: Daniel Checchia <danielchecchia@nasajon.com.br>
 Installed-Size: 36
 Depends: python3:any
 Filename: pool/main/python3-nasatools/python3-nasatools_1.0.4-1_all.deb
-Size: 8774
-MD5sum: d68b58b731ac5e73ec7c0b0a03035306
-SHA1: fa0dd05c52ba7a4061372064b1576a8bde90750f
-SHA256: cac56f0ffbb9fc24785553e3b79c5a77428b0f51d77ff985a3053360e851f0cb
+Size: 8780
+MD5sum: e4a5cff1f51741dc9b6bdb41a3e97c1d
+SHA1: aee0687e9ce0b51988f6e649b077b3ca6af87f6e
+SHA256: 44fdbab6bbece0391c67215f23c815e6abbe7f7a1b03e81e940b2cab4058ebc7
 Section: python
 Priority: optional
 Homepage: https://nasajon.com.br
