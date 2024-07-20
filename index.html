@@ -24,18 +24,10 @@
     <h2>Como Usar</h2>
 
     <p>Fazer download da chave pública:</p>
-    <pre>
-    <code>
-    sudo bash -c 'wget -q -O - https://apt.sre.nasajon.com.br/public.key | gpg --dearmor | tee /usr/share/keyrings/nasajon-archive-keyring.gpg 2>&1 > /dev/null'
-    </code>
-    </pre>
+    <pre><code>sudo bash -c 'wget -q -O - https://apt.sre.nasajon.com.br/public.key | gpg --dearmor | tee /usr/share/keyrings/nasajon-archive-keyring.gpg 2>&1 > /dev/null'</code></pre>
 
     <p>Adicionar o repositório:</p>
-    <pre>
-    <code>
-    sudo bash -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/nasajon-archive-keyring.gpg] http://apt.sre.nasajon.com.br stable main" | tee /etc/apt/sources.list.d/nasajonsre.list'
-    </code>
-    </pre>
+    <pre> <code> sudo bash -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/nasajon-archive-keyring.gpg] http://apt.sre.nasajon.com.br stable main" | tee /etc/apt/sources.list.d/nasajonsre.list' </code> </pre>
 
     <p>Executar:</p>
     <pre><code>sudo apt-get update
